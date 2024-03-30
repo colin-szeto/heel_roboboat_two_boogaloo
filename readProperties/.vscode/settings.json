@@ -1,0 +1,5 @@
+{
+	"python.autoComplete.extraPaths":	["C:/Users/Colin/AppData/Roaming/Autodesk/Autodesk Fusion 360/API/Python/defs"],
+	"python.analysis.extraPaths":	["C:/Users/Colin/AppData/Roaming/Autodesk/Autodesk Fusion 360/API/Python/defs"],
+	"python.defaultInterpreterPath":	"C:/Users/Colin/AppData/Local/Autodesk/webdeploy/production/b6226a03d2af9e144aa8b1b7e17cf8eb0cd990f1/Python/python.exe"
+}
