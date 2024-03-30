@@ -156,7 +156,17 @@ def run(context):
             comx[indexb] = f'{item:.3}'
             indexb += 1
 
-        string = string + 'total volume {} meters {} {} \n names: {} \n{}\n'.format(volume_out_m3, type(volume_out_m3),special,names, comx)
+        indexb= 0
+        for item in comy:
+            comy[indexb] = f'{item:.3}'
+            indexb += 1
+
+        indexb= 0
+        for item in comz:
+            comz[indexb] = f'{item:.3}'
+            indexb += 1
+
+        string = string + 'total volume {} meters {} {} \n names: {} \n{}\n{}\n{}\n'.format(volume_out_m3, type(volume_out_m3),special,names, comx,comy,comz)
         file1.write(string)
         file1.close()
 
